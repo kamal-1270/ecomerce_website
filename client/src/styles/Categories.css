@@ -1,0 +1,30 @@
+
+.container {
+    background-image: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=600');  
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 5%;
+    background-color: #00b36e;
+  }
+  
+  .custom-button {
+    color: white;
+    background-color: #007bff; /* Bootstrap primary color */
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+    transform: scale(1.05);
+  }
+  

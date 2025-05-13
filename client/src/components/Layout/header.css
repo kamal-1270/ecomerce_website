@@ -1,0 +1,76 @@
+/* Header Styles */
+.header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+.header .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header .navbar-brand:hover {
+    color: #dcdcdc;
+}
+
+.header .navbar-nav .nav-link {
+    color: #dcdcdc;
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.header .search-bar {
+    position: relative;
+    width: 100%;
+}
+
+.header .search-bar input {
+    width: 100%;
+    padding: 8px 40px 8px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.header .search-bar button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    color: #343a40;
+    font-size: 1.2rem;
+}
+
+.header .navbar-nav .nav-item .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.header .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: #dcdcdc;
+}
+
+.header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #495057;
+}
+
+.header .cart-icon {
+    color: #dcdcdc;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.header .cart-icon .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #ff6f61;
+    color: white;
+}
